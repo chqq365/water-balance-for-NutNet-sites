@@ -10,5 +10,5 @@ month.df <- data.frame(month = c("Jan","Feb", "Mar", "Apr", "May","Jun", "Jul", 
                        days = c(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31))
 
 # output data files can be found: https://drive.google.com/drive/folders/1bimfTdV94PQqEbWd2FbFLvDaivvx5Xp4?usp=sharing
-output 1: CRU-monthly-pet-1901-2021.csv (values are the average per day; average within each month)
+output 1: CRU-monthly-pet-1901-2021.csv (values are the average per day; average within each month);
 output 2: CRU-monthly-pre-1901-2021.csv (values are the sum per month)
