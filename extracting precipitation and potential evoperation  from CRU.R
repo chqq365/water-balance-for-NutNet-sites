@@ -22,7 +22,7 @@ sites2<-sites%>%dplyr::select("site_code", 'longitude','latitude')%>%distinct()
 
 # take a variable to use: pet, pre, tmp, tmx, tmn, here focus on pre and pet
 for (variable in c("pre", "pet")){
- variable<-"pet"
+# variable<-"pet"
 cruv <- variable
 ncfile <- paste0('cru_ts4.07.1901.2022.',cruv,'.dat.nc')
 nc <- nc_open(ncfile)
