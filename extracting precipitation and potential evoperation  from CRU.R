@@ -21,8 +21,9 @@ sites <-read.csv("comb-by-plot-clim-soil-diversity_2023-11-07.csv", header = T)
 sites2<-sites%>%dplyr::select("site_code", 'longitude','latitude')%>%distinct()
 
 # take a variable to use: pet, pre, tmp, tmx, tmn, here focus on pre and pet
-for (variable in c("pre", "pet")){
-# variable<-"pet"
+#  
+for (variable in c("pre", "pet", "tmp", "dtr")){
+# variable<-"dtr"
 cruv <- variable
 ncfile <- paste0('cru_ts4.07.1901.2022.',cruv,'.dat.nc')
 nc <- nc_open(ncfile)
