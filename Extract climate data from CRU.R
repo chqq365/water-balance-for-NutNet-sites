@@ -20,7 +20,7 @@ setwd(dir.data)
 sites <-read.csv("comb-by-plot-clim-soil-diversity_2023-11-07.csv", header = T) 
 sites2<-sites%>%dplyr::select("site_code", 'longitude','latitude')%>%distinct()
 
-# take a variable to use: pet, pre, tmp, tmx, tmn, here focus on pre and pet
+# take a variable to use: pet, pre, tmp, tmx, tmn, 
 #  
 for (variable in c("pre", "pet", "tmp", "dtr")){
 # variable<-"dtr"
