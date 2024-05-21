@@ -1,6 +1,7 @@
-# water-balance-for-NutNet-sites
+# I extended climate data to not only precipitation, potential evoperation, but also temperature. This includes Precipitation rate (PREmm/month), Mean 2 m temperature (TMP), and Diurnal 2 m temperature range (DTR),
+Potential evapo-transpiration (PET mm/day)
 
-# precipitation and potential evoperation data from 1900 to 2022 are downloaded from (https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.07/cruts.2304141047.v4.07/pre/)
+# data from 1900 to 2022 are downloaded from (https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.07/cruts.2304141047.v4.07/pre/)
 # read the article for introduction of the data: https://www.nature.com/articles/s41597-020-0453-3
  "Potential Evapotranspiration (PET) is calculated using the Penman-Monteith formula25 explained in26 (p1071–1072). For this we use the CRU TS gridded values of mean temperature, vapour pressure, cloud cover and static (temporally invariant except for the annual cycle) 1961–90 average wind field values (further described in5)"
 
