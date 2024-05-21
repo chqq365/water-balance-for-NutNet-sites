@@ -1,5 +1,4 @@
-# I extended climate data to not only precipitation, potential evoperation, but also temperature. This includes Precipitation rate (PREmm/month), Mean 2 m temperature (TMP), and Diurnal 2 m temperature range (DTR),
-Potential evapo-transpiration (PET mm/day)
+# I extended climate data to not only precipitation, potential evoperation, but also temperature. The R codes now includes Precipitation rate (PREmm/month), Mean 2 m temperature (TMP), and Diurnal 2 m temperature range (DTR), Potential evapo-transpiration (PET mm/day). 
 
 # data from 1900 to 2022 are downloaded from (https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.07/cruts.2304141047.v4.07/pre/)
 # read the article for introduction of the data: https://www.nature.com/articles/s41597-020-0453-3
